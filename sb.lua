@@ -609,7 +609,7 @@ VisualsTab:Button{
 	Name = "Show STK Users",
 	Description = "Permanently Shows STK Users In The Game",
     Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/DrugScripts/sbscript/main/stkhubtext.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SSGWLTEST/gg/main/ShowSTKHubUsers.lua"))()
    end
 }
 
@@ -617,7 +617,7 @@ AutofarmTab:Button{
 	Name = "PRESS BEFORE AUTOFARM/AUTO JOB",
 	Description = "Press F1 To Stop Farming. (TESTING).",
     Callback = function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/DrugScripts/sbscript/main/AF.lua'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SSGWLTEST/gg/main/PartDeleteAutoFarm.lua'))()
    end
 }
 AutofarmTab:Button{
@@ -641,7 +641,7 @@ AutofarmTab:Button{
 	Name = "Start Trash Farm",
 	Description = "Press F1 To Stop Farming. (TESTING).",
     Callback = function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/DrugScripts/sbscript/main/trash.lua'))() 
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SSGWLTEST/gg/main/TrashAutoFarm.lua'))() 
     end
 }
 AutofarmTab:Button{
@@ -665,7 +665,7 @@ AutofarmTab:Button{
 	Name = "Start Box Farm",
 	Description = "Press F1 To Stop Farming. (TESTING).",
     Callback = function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/DrugScripts/sbscript/main/box.lua'))() 
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SSGWLTEST/gg/main/BoxAutoFarm.lua'))() 
     end
 }
 TeleTab:Button{
